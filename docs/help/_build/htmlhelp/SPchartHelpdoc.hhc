@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+        <param name="Window Styles" value="0x801227">
+        <param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="SPchart Help v0.0 documentation">
+    <param name="Local" value="index.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Global Module Index">
+    <param name="Local" value="modindex.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1   SPChart Help">
+    <param name="Local" value="SPChartHelp.html">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.1   SPChart">
+    <param name="Local" value="SPChartHelp.html#spchart">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.1.1   Overview">
+    <param name="Local" value="SPChartHelp.html#overview">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.1.2   Features">
+    <param name="Local" value="SPChartHelp.html#features">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.1.3   License">
+    <param name="Local" value="SPChartHelp.html#license">
+</OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.2   Main Menus">
+    <param name="Local" value="SPChartHelp.html#main-menus">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.2.1   The File Menu">
+    <param name="Local" value="SPChartHelp.html#the-file-menu">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.2.2   The Chart Menu">
+    <param name="Local" value="SPChartHelp.html#the-chart-menu">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.2.3   The Function Menu">
+    <param name="Local" value="SPChartHelp.html#the-function-menu">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.2.4   The Curve Menu">
+    <param name="Local" value="SPChartHelp.html#the-curve-menu">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.2.5   The Option Menu">
+    <param name="Local" value="SPChartHelp.html#the-option-menu">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.2.6   The Help Menu">
+    <param name="Local" value="SPChartHelp.html#the-help-menu">
+</OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.3   Main Toolbars">
+    <param name="Local" value="SPChartHelp.html#main-toolbars">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.4   Chart interface">
+    <param name="Local" value="SPChartHelp.html#chart-interface">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.5   Mixed Mode S-Paramters">
+    <param name="Local" value="SPChartHelp.html#mixed-mode-s-paramters">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.5.1   File Entry">
+    <param name="Local" value="SPChartHelp.html#file-entry">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.5.2   Port Mapping">
+    <param name="Local" value="SPChartHelp.html#port-mapping">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.5.3   Chart Type">
+    <param name="Local" value="SPChartHelp.html#chart-type">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="1.5.4   Filter buttons">
+    <param name="Local" value="SPChartHelp.html#filter-buttons">
+</OBJECT>
+</UL>
+</UL>
+</UL></BODY></HTML>

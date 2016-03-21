@@ -1,0 +1,36 @@
+[OPTIONS]
+Binary TOC=Yes
+Binary Index=No
+Compiled file=SPchartHelpdoc.chm
+Contents file=SPchartHelpdoc.hhc
+Default Window=SPchartHelpdoc
+Default topic=index.html
+Display compile progress=No
+Full text search stop list file=SPchartHelpdoc.stp
+Full-text search=Yes
+Index file=SPchartHelpdoc.hhk
+Language=0x409
+Title=SPchart Help v0.0 documentation
+
+[WINDOWS]
+SPchartHelpdoc="SPchart Help v0.0 documentation","SPchartHelpdoc.hhc","SPchartHelpdoc.hhk","index.html","index.html",,,,,0x63520,220,0x10384e,[0,0,1024,768],,,,,,,0
+
+[FILES]
+genindex.html
+index.html
+SPChartHelp.html
+_static\basic.css
+_static\chartinterface.png
+_static\CustomCurve.png
+_static\customcurvedialog.png
+_static\default.css
+_static\file.png
+_static\minus.png
+_static\MixMode.png
+_static\MixModeInterface1.png
+_static\MixModPortMapping1.png
+_static\MixModPortMapping2.png
+_static\plus.png
+_static\PortMappingGrid1.png
+_static\portmappinggrid2.png
+_static\pygments.css

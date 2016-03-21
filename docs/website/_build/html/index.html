@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Welcome to SPChart Homepage &mdash; SPChart Homepage v0.0 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '#',
+        VERSION:     '0.0',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="SPChart Homepage v0.0 documentation" href="#" /> 
+  </head>
+  <body>
+
+
+
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li><a href="#">Home</a>|&nbsp;</li>
+	<li><a href="https://sourceforge.net/projects/spchart/files/">Download </a>|&nbsp;</li>	
+        <li><a href="search.html">search</a>|&nbsp;</li>
+ 
+      </ul>
+    </div>
+
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="#">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Welcome to SPChart Homepage</a><ul>
+<li><a class="reference external" href="#spchart-overview">SPChart Overview</a></li>
+<li><a class="reference external" href="#pre-requirement">Pre-requirement</a></li>
+<li><a class="reference external" href="#evaluate-the-accuracy">Evaluate the accuracy</a><ul>
+<li><a class="reference external" href="#single-mode">Single Mode</a></li>
+<li><a class="reference external" href="#mixed-mode">Mixed Mode</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</li>
+</ul>
+
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/index.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="welcome-to-spchart-homepage">
+<h1>Welcome to SPChart Homepage<a class="headerlink" href="#welcome-to-spchart-homepage" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="spchart-overview">
+<h2>SPChart Overview<a class="headerlink" href="#spchart-overview" title="Permalink to this headline">¶</a></h2>
+<p>SPChart is free software to plot S-paramters. The motivation of developing
+this software is that I cannot find a free tools to do such things.</p>
+<p>SPchart is still under developing and now it has such features:</p>
+<ul class="simple">
+<li>support SnP files from S1P upto S9P</li>
+<li>only support 4 port mixed mode s-paramters</li>
+<li>export chart to eps, emf, pdf, png, ps, svg format</li>
+<li>phase functions</li>
+<li>TDR(not applied in this version)</li>
+</ul>
+<img alt="_images/spchart_maingui.png" src="_images/spchart_maingui.png" />
+</div>
+<div class="section" id="pre-requirement">
+<h2>Pre-requirement<a class="headerlink" href="#pre-requirement" title="Permalink to this headline">¶</a></h2>
+<p>SPChart is base on Python, Numpy and Matplotlib. It is also compiled to
+exe file by py2exe and packaged to a insaller by Inno Setup.</p>
+<p>If you want run SPChart as python script, please install python, numpy and
+matplotlib first, I recommand to use Python(x,y) package with everthing
+together. Otherwise, you can use compiled exe format without any libarays
+pre-installed.</p>
+<p>SPChart was developed and tested on Windows XP platform only.</p>
+</div>
+<div class="section" id="evaluate-the-accuracy">
+<h2>Evaluate the accuracy<a class="headerlink" href="#evaluate-the-accuracy" title="Permalink to this headline">¶</a></h2>
+<p>SPview is commercial(not-free) software, can be use to compare with SPChart.
+<a class="reference external" href="_static/Sample2.S4P">Sample S4P file download.</a></p>
+<div class="section" id="single-mode">
+<h3>Single Mode<a class="headerlink" href="#single-mode" title="Permalink to this headline">¶</a></h3>
+<p>Plot the magnitude in dB:</p>
+<ul>
+<li><p class="first">SPChart curves</p>
+<blockquote>
+<img alt="_images/SPChart_SEmode.png" src="_images/SPChart_SEmode.png" />
+</blockquote>
+</li>
+<li><p class="first">SPview curves</p>
+<blockquote>
+<img alt="_images/SPView_SEmode.png" src="_images/SPView_SEmode.png" />
+</blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="mixed-mode">
+<h3>Mixed Mode<a class="headerlink" href="#mixed-mode" title="Permalink to this headline">¶</a></h3>
+<p>Caculate from single-ended s-paramters, plot the magnitude in dB:</p>
+<ul>
+<li><p class="first">SPChart curves</p>
+<blockquote>
+<img alt="_images/SPChart_mixmode.png" src="_images/SPChart_mixmode.png" />
+</blockquote>
+</li>
+<li><p class="first">SPview curves</p>
+<blockquote>
+<img alt="_images/SPView_mixmode.png" src="_images/SPView_mixmode.png" />
+</blockquote>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h2>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="genindex.html"><em>Index</em></a></li>
+<li><a class="reference external" href="modindex.html"><em>Module Index</em></a></li>
+<li><a class="reference external" href="search.html"><em>Search Page</em></a></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li><a href="#">Home</a>|&nbsp;</li>
+	<li><a href="https://sourceforge.net/projects/spchart/files/">Download </a>|&nbsp;</li>	
+        <li><a href="search.html">search</a>|&nbsp;</li>
+ 
+      </ul>
+    </div>
+<script language="javascript" type="text/javascript" src="http://js.users.51.la/4469878.js"></script>
+<noscript><a href="http://www.51.la/?4469878" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/4469878.asp" style="border:none" /></a></noscript>
+
+
+  </body>
+</html>
